@@ -506,7 +506,10 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
-
+.about-text li{
+  list-style: circle;
+  margin-left: 20px;
+}
 
 /**
  * #service 
