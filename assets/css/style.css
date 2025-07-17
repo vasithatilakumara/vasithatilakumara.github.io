@@ -165,6 +165,115 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
+
+/* .skills-dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 0.5em;
+    column-gap: 1em;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .skills-dl dt {
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .skills-dl dd {
+    margin: 0;
+  } */
+
+    section#skills {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+    border-radius: 10px;
+    line-height: 1.7;
+  }
+
+   section#skills h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .skill-category {
+    flex: 1 1 45%;
+    min-width: 280px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .skill-category h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffc107;
+  }
+
+  .skill-entry {
+    margin-bottom: 20px;
+  }
+
+  .skill-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95em;
+    margin-bottom: 6px;
+  }
+
+  .skill-bar-container {
+    background-color: #2b2b2b;
+    border-radius: 6px;
+    overflow: hidden;
+    height: 10px;
+  }
+
+  .skill-bar {
+    height: 100%;
+    background-color: #03c988;
+    transition: width 0.4s ease-in-out;
+  }
+
+  .button-row {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button-row a {
+    display: inline-block;
+    background-color: #03a9f4;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-row a:hover {
+    background-color: #0288d1;
+  }
+
+  @media (max-width: 768px) {
+    .skills-grid {
+      flex-direction: column;
+    }
+  }
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
