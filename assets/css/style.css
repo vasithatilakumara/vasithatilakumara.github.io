@@ -1068,7 +1068,7 @@ main {
 
 .select-item button:hover { --eerie-black-2: hsl(240, 2%, 20%); }
 
-/* .project-list {
+.project-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
@@ -1160,9 +1160,9 @@ main {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-} */
+}
 
-.project-list {
+/* .project-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1236,7 +1236,7 @@ main {
   color: #cccccc;
   margin: 0 16px 20px;
   line-height: 1.5;
-}
+} */
 
 
 

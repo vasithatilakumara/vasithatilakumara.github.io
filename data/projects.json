@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Homelessness Data Dashboard",
+    "category": "data visualisation",
+    "image": "./assets/images/dashboard-p2.png",
+    "link": "https://rmitsam.shinyapps.io/homelessness_dashboard/",
+    "description": "Interactive dashboard exploring trends and demographics."
+  },
+  {
+    "title": "Statistical Climate Analysis (R)",
+    "category": "data wrangling",
+    "image": "./assets/images/r-statistical-climate.png",
+    "link": "https://vasithatilakumara.github.io/r-climate-analysis/",
+    "description": "Melbourne vs Sydney: solar exposure & max temp patterns."
+  },
+  {
+    "title": "Data Preprocessing (R)",
+    "category": "data wrangling",
+    "image": "./assets/images/r-data-pre.png",
+    "link": "https://github.com/vasithatilakumara/r-data-preprocessing",
+    "description": "End-to-end R preprocessing of multi-source data—tidy merges, type handling, outlier treatment, and transformations—delivered with clear, reproducible code."
+  },
+  {
+    "title": "Housing Data Cleaning",
+    "category": "data wrangling",
+    "image": "./assets/images/data-cleaning.png",
+    "link": "https://github.com/VasithaTilakumara/DataSciencePortfolio/tree/main/Data%20Cleaning/SQL",
+    "description": "SQL Server cleaning: duplicates, missing values, normalization."
+  },  
+  {
+    "title": "COVID-19 Vaccination Analytics",
+    "category": "data analysis",
+    "image": "./assets/images/data-all.png",
+    "link": "https://github.com/VasithaTilakumara/DataSciencePortfolio/tree/main/Data%20Modelling/SQL",
+    "description": "Database design + queries + dashboard for global vaccine trends."
+  }
+]

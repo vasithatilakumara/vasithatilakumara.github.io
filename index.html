@@ -189,8 +189,13 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <!-- <li class="navbar-item">
+           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Services</button>
           </li>
 
           <li class="navbar-item">
@@ -243,8 +248,11 @@
 
         <section class="service">
         <h3 class="h3 service-title">Recent Projects</h3>
+        
+        <ul class="project-list" data-recent-list aria-live="polite">
 
-        <ul class="project-list">
+        </ul>
+        <!-- <ul class="project-list">
 
           <li class="project-item active">
             <a href="https://rmitsam.shinyapps.io/homelessness_dashboard/" target="_blank">
@@ -296,7 +304,7 @@
               <h3 class="project-title">Statistical analysis of Climate data</h3>
               <p class="project-category">This project presents a comparative analysis of climate patterns in Melbourne and Sydney, focusing on solar exposure and maximum temperature trends. Using historical weather data, the analysis highlights seasonal variations and city-specific differences through clear visualizations and summary statistics. </p>
             </a>
-          </li>
+          </li> -->
 
           
 
@@ -952,17 +960,17 @@
               <button class="active" data-filter-btn>All</button>
             </li>
 
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Data Preprocessing</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Data Visualisation</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
+              <button data-filter-btn>Big Data</button>
+            </li> -->
 
           </ul>
 
@@ -970,7 +978,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-value" data-select-value>Select category</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -985,24 +993,26 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Data Preprocessing</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Data Visualisation</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Big Data</button>
               </li>
 
             </ul>
 
           </div>
 
-          <ul class="project-list">
+          <ul class="project-list" data-project-list aria-live="polite"></ul>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+          <!-- <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="data visualisation">
               <a href="#">
 
                 <figure class="project-img">
@@ -1015,7 +1025,7 @@
 
                 <h3 class="project-title">Finance</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Data Preprocessing</p>
 
               </a>
             </li>
@@ -1164,7 +1174,7 @@
               </a>
             </li>
 
-          </ul>
+          </ul> -->
 
         </section>
 
