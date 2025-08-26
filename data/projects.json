@@ -17,7 +17,7 @@
     "title": "Web Scrape (py) + Data Visualisation (Looker Studio)",
     "category": "data visualisation",
     "image": "./assets/images/seek-job-dashboard.png",
-    "link": "https://vasithatilakumara.github.io/r-data-preprocessing/",
+    "link": "https://lookerstudio.google.com/reporting/0edf4ca3-3bef-4698-a6ec-a8e740b1e0ea",
     "description": "Python web scrape of SEEK job ads + Looker Studio dashboard of trends."
   },
   {
