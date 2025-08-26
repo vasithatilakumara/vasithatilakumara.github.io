@@ -354,3 +354,24 @@ async function loadProjects() {
 }
 
 loadProjects();
+
+// // Lazy-load Looker Studio iframe(s)
+// (function lazyLoadFrames(){
+//   const frames = document.querySelectorAll('iframe[data-src]');
+//   if (!frames.length) return;
+
+//   const load = f => { f.src = f.dataset.src; f.removeAttribute('data-src'); };
+
+//   if ('IntersectionObserver' in window) {
+//     const io = new IntersectionObserver(entries => {
+//       entries.forEach(e => {
+//         if (e.isIntersecting) { load(e.target); io.unobserve(e.target); }
+//       });
+//     }, { rootMargin: '200px 0px' });
+//     frames.forEach(f => io.observe(f));
+//   } else {
+//     // Fallback for very old browsers
+//     frames.forEach(load);
+//   }
+// })();
+
